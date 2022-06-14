@@ -1,0 +1,17 @@
+{
+  "name": "shadowblockcontrol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start src/block.js",
+    "build": "wp-scripts build src/block.js",
+    "lint:js": "wp-scripts lint-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^23.2.0"
+  }
+}
